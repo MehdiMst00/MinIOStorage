@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinIOStorage", "MinIOStorage\MinIOStorage.csproj", "{2DAB6793-4C0B-488A-89D3-B04626A45A57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinIOStorage", "MinIOStorage\MinIOStorage.csproj", "{2DAB6793-4C0B-488A-89D3-B04626A45A57}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8AD6784C-6C79-4D5D-A0BC-7EE50489A7C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2DAB6793-4C0B-488A-89D3-B04626A45A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DAB6793-4C0B-488A-89D3-B04626A45A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DAB6793-4C0B-488A-89D3-B04626A45A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD6784C-6C79-4D5D-A0BC-7EE50489A7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD6784C-6C79-4D5D-A0BC-7EE50489A7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD6784C-6C79-4D5D-A0BC-7EE50489A7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD6784C-6C79-4D5D-A0BC-7EE50489A7C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
